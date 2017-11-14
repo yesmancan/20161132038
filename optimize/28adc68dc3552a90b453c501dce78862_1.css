@@ -3,7 +3,8 @@
 @import url(//themewinter.com/demo/joomla/newslive/templates/ts_newslive/css/bootstrap-legacy/mixins);
 @import url(//themewinter.com/demo/joomla/newslive/templates/ts_newslive/css/bootstrap-legacy/forms.less);
 @import url(//themewinter.com/demo/joomla/newslive/templates/ts_newslive/css/bootstrap-legacy/wells.less);
-@import url(//themewinter.com/demo/joomla/newslive/templates/ts_newslive/css/bootstrap-legacy/accordion.less) html {
+@import url(//themewinter.com/demo/joomla/newslive/templates/ts_newslive/css/bootstrap-legacy/accordion.less);
+html {
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%
@@ -228,8 +229,8 @@ th {
 
 @media print {
     *,
-    :after,
-    :before {
+     :after,
+     :before {
         color: #000!important;
         text-shadow: none!important;
         background: 0 0!important;
